@@ -1,0 +1,11 @@
+RRCProtocol DEFINITIONS ::= BEGIN
+
+RRCConnectionSetupRequest ::= SEQUENCE {
+    subscriberId OCTET STRING
+}
+
+RRCConnectionSetupComplete ::= SEQUENCE {
+    subscriberId OCTET STRING
+}
+
+END
